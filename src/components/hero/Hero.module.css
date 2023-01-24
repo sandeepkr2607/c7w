@@ -1,0 +1,43 @@
+.container {
+  color: white;
+  padding: 0 1.5rem;
+  margin-top: 122px;
+}
+
+.backGround {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+}
+
+.content {
+  width: 100%;
+  padding-top: 264px;
+  padding-left: 250px;
+}
+
+.title {
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+
+.title:before {
+  color: #7611f7;
+  content: 'SECURITY ';
+}
+
+.discription {
+  font-size: 1.1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 4px;
+  line-height: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}

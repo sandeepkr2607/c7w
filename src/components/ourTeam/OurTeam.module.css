@@ -1,0 +1,118 @@
+.container {
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: black;
+  border: 2px solid #7611f7;
+  color: white;
+}
+
+.heading {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.color {
+  color: #7611f7;
+  margin-left: 17px;
+}
+
+.containt {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.aboutTeam1 {
+  margin-top: 70px;
+
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTeam1 > img {
+  height: 500px;
+}
+
+.aboutTeam1 > p {
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 1.7px;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.aboutTeam2 {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTeam2 > img {
+  height: 500px;
+}
+
+.aboutTeam2 > p {
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 1.7px;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.aboutTeam3 {
+  margin-top: 70px;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTeam3 > img {
+  height: 500px;
+}
+
+.aboutTeam3 > p {
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 1.7px;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.aboutTeam4 {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTeam4 > img {
+  height: 500px;
+}
+
+.aboutTeam4 > p {
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 1.7px;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}

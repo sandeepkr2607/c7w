@@ -1,0 +1,157 @@
+.container {
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bgImg {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+}
+
+.containt {
+  width: 100%;
+  padding: 40px;
+  gap: 10px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+.heading:before {
+  color: #7611f7;
+  content: " BLOCKCHAIN ";
+  margin-right: 25px;
+}
+
+.left {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 20px;
+}
+
+.left > img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 25px;
+}
+
+.left > span {
+  font-size: 1.1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  line-height: 2rem;
+}
+
+.right {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 160px;
+  margin-bottom: 20px;
+}
+
+.right > img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 25px;
+}
+
+.right > span {
+  font-size: 1.1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  line-height: 2rem;
+}
+
+.bgImg_2 {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+  margin-top: 50px;
+  position: relative;
+  min-height: 600px;
+}
+
+.containt_2 {
+  width: 90%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContaint1 {
+  padding: 25px;
+  max-width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContaint1 > span {
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 4px;
+  line-height: 1.5rem;
+}
+
+.rightContaint {
+  padding: 25px;
+  max-width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 37%;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightContaint > span {
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 4px;
+  line-height: 1.5rem;
+}
+
+.leftContaint2 {
+  padding: 25px;
+  max-width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: 2px solid #7611f7;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContaint2 > span {
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  word-spacing: 4px;
+  line-height: 1.5rem;
+}

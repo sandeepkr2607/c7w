@@ -1,0 +1,92 @@
+.main {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.main_active {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 999;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo > img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: none;
+}
+
+.menu_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: none;
+  color: #7611f7;
+}
+
+.menu > li:hover {
+  color: #7611f7;
+  cursor: pointer;
+}
+
+.menu_active > li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  list-style: none;
+}
+.contactUs_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  list-style: none;
+  color: #7611f7;
+}
+
+.contactUs > li:hover {
+  color: #7611f7;
+  cursor: pointer;
+}
+.contactUs_active > li:hover {
+  color: white;
+  cursor: pointer;
+}
