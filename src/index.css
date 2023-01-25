@@ -13,6 +13,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   box-shadow: #160d21;
+  background: url(./images/c7wbg.jpg);
 }
 
 body::-webkit-scrollbar-thumb {

@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Footer.module.css';
 import logo2 from '../../images/logo2.png';
-import footerimg from '../../images/footerimg.png';
+import c7wfooter from '../../images/c7wfooter.jpg';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
       <div id="contact" className={css.container}>
         <div
           style={{
-            backgroundImage: `url(${footerimg})`,
+            backgroundImage: `url(${c7wfooter})`,
             backgroundSize: 'cover',
           }}
           className={css.bgImg}
