@@ -1,5 +1,5 @@
 .container {
-  margin: 1.5rem;
+  margin: 2rem 5.5rem;
   border-radius: 20px;
   color: white;
   display: flex;
@@ -10,39 +10,46 @@
   border: 2px solid #7611f7;
 }
 
-.heading1 {
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3rem;
+}
+
+.heading > h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+}
+
+.headingOne {
+  margin-bottom: 0;
   font-size: 2.5rem;
   letter-spacing: 3px;
   word-spacing: 10px;
-  text-transform: uppercase;
 }
 
-.headingColor {
+.headingOneColor {
   color: #7611f7;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 3rem;
 }
 
-.heading2 {
-  margin-top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+.headingTwo {
   font-size: 2.5rem;
   letter-spacing: 3px;
   word-spacing: 10px;
-  text-transform: uppercase;
+  color: #7611f7;
+  font-size: 3rem;
+  margin-top: 20px;
 }
 
 .discription {
-  font-size: 1.1rem;
-  letter-spacing: 1.3px;
-  word-spacing: 2.9px;
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  word-spacing: 2.5px;
   line-height: 1.7rem;
   margin-top: 0;
   text-transform: capitalize;
@@ -50,7 +57,7 @@
 
 .options1 {
   margin-top: 40px;
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -67,12 +74,18 @@
   background-color: black;
   border: 2px solid #7611f7;
   border-radius: 20px;
-  width: 200px;
-  height: 220px;
+  width: 160px;
+  height: 180px;
 }
+
+.option1 > img {
+  width: 6rem;
+  height: 6rem;
+}
+
 .options2 {
   margin-top: 50px;
-  width: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -90,6 +103,11 @@
   background-color: black;
   border: 2px solid #7611f7;
   border-radius: 20px;
-  width: 200px;
-  height: 220px;
+  width: 160px;
+  height: 180px;
+}
+
+.option2 > img {
+  width: 6rem;
+  height: 6rem;
 }

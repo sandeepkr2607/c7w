@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 1.5rem;
+  padding: 2rem 5.5rem;
   flex-direction: column;
   align-items: center;
 }
@@ -32,7 +32,8 @@
 
 .colors {
   color: #7611f7;
-  margin-left: 17px;
+  font-size: 2.7rem;
+  margin-left: 27px;
 }
 
 .cards {
@@ -53,8 +54,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  height: 570px;
-  width: 350px;
+  height: 470px;
+  width: 300px;
   padding: 30px 30px;
   position: relative;
 }
@@ -65,8 +66,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #7611f7;
   /* filter: blur(8px); */
@@ -74,22 +75,22 @@
 
 .card > h3 {
   position: absolute;
-  top: 27%;
-  font-size: 1.5rem;
-  letter-spacing: 1.5px;
-  word-spacing: 2.8px;
-  line-height: 2rem;
+  top: 22%;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+  word-spacing: 2.2px;
   text-transform: capitalize;
+  font-weight: 500;
 }
 
 .card > p {
   padding: 0 20px 0 0;
   position: absolute;
-  top: 40%;
-  font-size: 1.1rem;
+  top: 35%;
+  font-size: 0.9rem;
   letter-spacing: 1.2px;
   word-spacing: 2.1px;
-  line-height: 2rem;
+  line-height: 1.7rem;
   text-transform: capitalize;
 }
 
@@ -97,7 +98,6 @@
   border-radius: 20px;
   background-color: black;
   border: 2px solid #7611f7;
-
   color: white;
   display: flex;
   align-items: center;
@@ -117,15 +117,16 @@
   margin-bottom: 0;
   padding: 20px;
   margin-top: 0;
-  font-size: 1.6rem;
-  letter-spacing: 1.3px;
+  font-size: 1.5rem;
+  letter-spacing: 1.2px;
   word-spacing: 2.2px;
   text-transform: uppercase;
+  line-height: 1.2rem;
 }
 
-.left > img {
+.leftImg {
   height: 3rem;
-  margin-top: 20px;
+  margin-top: 40px;
   cursor: pointer;
 }
 
@@ -133,9 +134,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
 }
 
 .right > img {
-  height: 200px;
+  height: 160px;
 }

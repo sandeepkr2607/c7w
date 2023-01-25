@@ -12,11 +12,13 @@ const Features = () => {
   return (
     <>
       <div id="features" className={css.container}>
-        <h1 className={css.heading1}>
-          <span className={css.headingColor}>blockchain</span> cyber
-          <span className={css.headingColor}>threats</span> to
-        </h1>
-        <h1 className={css.heading2}>watch for</h1>
+        <div className={css.heading}>
+          <h1 className={css.headingOne}>
+            <span className={css.headingOneColor}> BLOCKCHAIN </span> CYBER
+            <span className={css.headingOneColor}> THREATS </span> TO
+          </h1>
+          <h1 className={css.headingTwo}>WATCH FORS</h1>
+        </div>
         <p className={css.discription}>
           despite a secure infrastructure, blockchains aren’t immune to
           cybersecurity issues.

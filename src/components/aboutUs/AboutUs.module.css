@@ -1,6 +1,6 @@
 .container {
   color: white;
-  padding: 1.5rem;
+  padding: 2rem 5.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -32,8 +32,9 @@
 
 .heading:before {
   color: #7611f7;
-  content: " BLOCKCHAIN ";
+  content: ' BLOCKCHAIN ';
   margin-right: 25px;
+  font-size: 3rem;
 }
 
 .left {
@@ -43,14 +44,14 @@
 }
 
 .left > img {
-  width: 5rem;
-  height: 5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   margin-right: 25px;
 }
 
 .left > span {
-  font-size: 1.1rem;
-  letter-spacing: 1.3px;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
   word-spacing: 3px;
   line-height: 2rem;
 }
@@ -63,14 +64,14 @@
 }
 
 .right > img {
-  width: 5rem;
-  height: 5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   margin-right: 25px;
 }
 
 .right > span {
-  font-size: 1.1rem;
-  letter-spacing: 1.3px;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
   word-spacing: 3px;
   line-height: 2rem;
 }
@@ -96,7 +97,7 @@
 .leftContaint1 {
   padding: 25px;
   max-width: 500px;
-  height: 100px;
+  height: 110px;
   border-radius: 20px;
   border: 2px solid #7611f7;
   margin-bottom: 30px;
@@ -108,16 +109,16 @@
 }
 
 .leftContaint1 > span {
-  font-size: 1rem;
-  letter-spacing: 1.3px;
-  word-spacing: 4px;
-  line-height: 1.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+  line-height: 1.4rem;
 }
 
 .rightContaint {
   padding: 25px;
   max-width: 500px;
-  height: 100px;
+  height: 110px;
   border-radius: 20px;
   border: 2px solid #7611f7;
   margin-bottom: 30px;
@@ -130,16 +131,16 @@
 }
 
 .rightContaint > span {
-  font-size: 1rem;
-  letter-spacing: 1.3px;
-  word-spacing: 4px;
-  line-height: 1.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+  line-height: 1.4rem;
 }
 
 .leftContaint2 {
   padding: 25px;
   max-width: 500px;
-  height: 100px;
+  height: 110px;
   border-radius: 20px;
   border: 2px solid #7611f7;
   position: absolute;
@@ -150,8 +151,8 @@
 }
 
 .leftContaint2 > span {
-  font-size: 1rem;
-  letter-spacing: 1.3px;
-  word-spacing: 4px;
-  line-height: 1.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+  line-height: 1.4rem;
 }

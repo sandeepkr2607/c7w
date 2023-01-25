@@ -11,7 +11,7 @@ const WhyUs = () => {
           <h3 className={css.whyUs}>WHY CHOOSE US</h3>
           <h1 className={css.Heading}>
             EVERY PART OF YOUR{' '}
-            <span className={css.headingColor}>IT ECOSYSTEM</span>.
+            <span className={css.headingColor}>IT ECOSYSTEM</span>
           </h1>
           <h1 className={css.Heading2}>TAKEN CARE OF.</h1>
           <p className={css.whyUsText}>
@@ -48,7 +48,7 @@ const WhyUs = () => {
           </p>
           <div className={css.btn3}>
             <Link to="contact" smooth={true} duration={500}>
-              <img src={whyusBtn} alt="" />
+              <img src={whyusBtn} alt="" className={css.btn3Img} />
             </Link>
           </div>
         </div>

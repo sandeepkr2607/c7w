@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 1.5rem;
+  padding: 2rem 5.5rem;
   flex-direction: column;
   align-items: center;
 }
@@ -19,13 +19,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 3rem;
+}
+
+.heading > h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.headingOne {
   margin-bottom: 0;
   font-size: 2.5rem;
   letter-spacing: 3px;
   word-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.headingOneColor {
+  color: #7611f7;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
@@ -49,8 +64,8 @@
 }
 
 .services > img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 20px;
   padding: 10px;
   border: 2px solid #7611f7;
@@ -58,15 +73,14 @@
 }
 
 .services > span {
-  font-size: 1.1rem;
-  letter-spacing: 1.3px;
+  font-size: 0.9rem;
+  letter-spacing: 1.2px;
   word-spacing: 3px;
   line-height: 2rem;
-  text-transform: capitalize;
 }
 
 .right {
-  max-width: 450px;
+  max-width: 400px;
   padding: 40px;
 }
 
@@ -90,19 +104,18 @@
 }
 
 .heading2 {
-  font-size: 1.7rem;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 3px;
   word-spacing: 10px;
 }
 
 .discription {
-  font-size: 1.6rem;
-  letter-spacing: 1.3px;
-  word-spacing: 3px;
-  line-height: 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  line-height: 1.7rem;
   text-transform: capitalize;
 }
 
@@ -114,15 +127,15 @@
 }
 
 .forMore > span {
-  font-size: 1.4rem;
-  letter-spacing: 1.3px;
-  word-spacing: 3px;
+  font-size: 1.2rem;
+  letter-spacing: 1.1px;
+  word-spacing: 1.5px;
   line-height: 2rem;
   text-transform: capitalize;
   margin-right: 20px;
 }
 
-.forMore > img {
-  height: 3.5rem;
+.forMoreImg {
+  height: 3rem;
   cursor: pointer;
 }

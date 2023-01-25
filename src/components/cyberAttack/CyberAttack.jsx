@@ -12,7 +12,12 @@ const CyberAttack = () => {
   return (
     <div className={css.container}>
       <div className={css.top}>
-        <h1 className={css.heading}>common form of cyber attacks</h1>
+        <div className={css.heading}>
+          <h1 className={css.headingOne}>
+            common form of
+            <span className={css.headingOneColor}> cyber attacks </span>
+          </h1>
+        </div>
         <div className={css.block}>
           <div className={css.left}>
             <div className={css.services}>
@@ -53,7 +58,7 @@ const CyberAttack = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={cyberbtn} alt="" />
+            <img className={css.forMoreImg} src={cyberbtn} alt="" />
           </a>
         </div>
       </div>

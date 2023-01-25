@@ -1,7 +1,8 @@
 .container {
   color: white;
-  padding: 0 1.5rem;
-  margin-top: 122px;
+  padding: 2rem 5.5rem;
+  padding-top: 0;
+  margin-top: 100px;
 }
 
 .backGround {
@@ -19,14 +20,16 @@
 }
 
 .title {
-  font-size: 3.5rem;
-  letter-spacing: 5px;
-  word-spacing: 15px;
+  font-size: 3.2rem;
+  letter-spacing: 4px;
+  word-spacing: 12px;
+  line-height: 4rem;
 }
 
 .title:before {
   color: #7611f7;
   content: 'SECURITY ';
+  font-size: 3.5rem;
 }
 
 .discription {

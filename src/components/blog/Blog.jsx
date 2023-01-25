@@ -61,7 +61,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={solutionbtn} alt="" />
+              <img className={css.leftImg} src={solutionbtn} alt="" />
             </a>
           </div>
           <div className={css.right}>
